@@ -12,4 +12,4 @@ RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 
 LAYOUTS = ortho_5x15
-DEFAULT_FOLDER = 40percentclub/i75/promicro
+DEFAULT_FOLDER = 40percentclub/i75/75keys

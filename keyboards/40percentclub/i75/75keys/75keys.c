@@ -13,14 +13,4 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-#pragma once
-
-#include "quantum.h"
-
-#ifdef KEYBOARD_40percentclub_i75_promicro
-    #include "promicro.h"
-#elif KEYBOARD_40percentclub_i75_teensy2
-    #include "teensy2.h"
-#elif KEYBOARD_40percentclub_i75_75keys
-    #include "75keys.h"
-#endif
+#include "i75.h"

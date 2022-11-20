@@ -22,7 +22,11 @@ Make example for this keyboard (after setting up your build environment):
 
 If you would like to use one of the alternative controllers:
 
+    make 40percentclub/i75/75keys:75keys
     make 40percentclub/i75/promicro:default
     make 40percentclub/i75/teensy2:default
+    
+    flash
+    make 40percentclub/i75/75keys:75keys:avrdude
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
